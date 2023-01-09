@@ -2,13 +2,13 @@
 variable "ami" {
   description = "ID of AMI to use for the instance"
   type        = string
-  default     = null
+  default     = "ami-0b5eea76982371e91"
 }
 
 variable "name" {
   description = "Name to be used on EC2 instance created"
   type        = string
-  default     = ""
+  default     = "demo-tfe"
 }
 
 variable "cpu_credits" {
@@ -20,7 +20,7 @@ variable "cpu_credits" {
 variable "instance_type" {
   description = "The type of instance to start"
   type        = string
-  default     = "t3.micro"
+  default     = "t2.micro"
 }
 
 variable "subnet_id" {
