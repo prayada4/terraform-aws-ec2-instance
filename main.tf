@@ -1,5 +1,5 @@
 resource "aws_network_interface" "this" {
-  subnet_id   = var.my_subnet.id
+  subnet_id   = var.mysubnet
 
   tags = {
     Name = "primary_network_interface"
