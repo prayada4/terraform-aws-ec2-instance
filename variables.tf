@@ -18,10 +18,9 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "subnet_id" {
+variable "mysubnet" {
   description = "The VPC Subnet ID to launch in"
   type        = string
-  default     = null
 }
 
 variable "vpc_security_group_ids" {
