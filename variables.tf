@@ -11,11 +11,6 @@ variable "name" {
   default     = "demo-tfe"
 }
 
-variable "cpu_credits" {
-  description = "The credit option for CPU usage (unlimited or standard)"
-  type        = string
-  default     = null
-}
 
 variable "instance_type" {
   description = "The type of instance to start"
